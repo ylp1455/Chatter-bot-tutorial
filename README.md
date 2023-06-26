@@ -20,4 +20,4 @@ The chatbot can be trained on custom data by adding additional conversation exam
 ##License
 This project is licensed under the MIT License.
 
-You can also add a table of contents to the README.md file by adding the following lines to the top of the file:
+You can also add a table of contents to the README.md file by adding the following lines to the top of the file
