@@ -23,6 +23,7 @@ chatbot = ChatBot(
 )
 
 
+
 from chatterbot.trainers import ListTrainers
 
 trainser = ListTrainers(chatbot) 
@@ -36,3 +37,15 @@ trainercorpus.train(
     'chatterbot.corpus.english'
 )
 
+
+name = input("Enter your name: ")
+print("Hello", name , "Wellcome to the invercity.\n How i can help you today")
+while True:
+    request = input(name+': ')
+    if request == "Bye" or request == "bye":
+        break
+    else:
+        response = chatbot.get_response(request)
+        print('Bot:' ,response)
+
+    
