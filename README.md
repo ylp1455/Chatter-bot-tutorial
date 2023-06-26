@@ -23,6 +23,12 @@ pip install chatterbot
 ##Custom Training
 The chatbot can be trained on custom data by adding additional conversation examples to the greet_conversation, open_timings_conversation, and close_timings_conversation lists.
 
+##Google Colab
+For an interactive version of the tutorial, you can try it out on Google Colab. Click the following link to open the notebook:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Dy2jeFFgiwdjxNPOsA0wrAjN5LIsWCMx)
+
+
 ##License
 This project is licensed under the MIT License.
 
