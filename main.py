@@ -18,8 +18,6 @@ chatbot = ChatBot(
                      
                     ],
     database_uri='sqlite://database.sqlite3'
-                  
-
 )
 
 
